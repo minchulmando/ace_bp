@@ -1,0 +1,35 @@
+# do not ignore file list
+!devel/setup.bash
+
+# ignore file list
+.catkin_workspace
+*.log
+*.swp
+*.tar
+*.pyc
+*.index
+*.meta
+*.data-00000-of-00001
+.ycm_extra_conf.py
+
+# ignore temporary file list
+.gitignore~
+*.cpp~
+*.h~
+*.msg~
+*.txt~
+*.xml~
+*.launch~
+*.ini~
+*.dbc~
+*.py~
+*.sh~
+*.yaml~
+
+# igonore directories
+build/
+devel/
+.vscode/
+.catkin_tools/
+logs/
+
