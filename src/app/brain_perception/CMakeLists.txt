@@ -57,6 +57,15 @@ find_package(OpenCV REQUIRED)
 #add_message_files(
 #   FILES
 #)
+add_message_files(
+   FILES
+   Object_pred.msg
+   Object_sn.msg
+   Object_xy.msg
+   fusion_objectlist_type.msg
+   Fusion_object_type.msg
+)
+
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -73,14 +82,14 @@ find_package(OpenCV REQUIRED)
 # )
 
 ## Generate added messages and services with any dependencies listed here
-#generate_messages(
-#   DEPENDENCIES
-#   std_msgs
-#   geometry_msgs
+generate_messages(
+   DEPENDENCIES
+   std_msgs
+   geometry_msgs
 #   sensor_msgs
 #   visualization_msgs
 #   nav_msgs
-#)
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##

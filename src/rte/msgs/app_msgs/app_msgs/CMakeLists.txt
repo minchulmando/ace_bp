@@ -61,6 +61,10 @@ add_message_files(
    # Route
    MsgRoute.msg
    MsgLocalRoute.msg
+   # Event
+   MsgRoadEventNode.msg
+   MsgRoadEvent.msg
+   MsgLocalEvent.msg
 )
 
 ## Generate services in the 'srv' folder

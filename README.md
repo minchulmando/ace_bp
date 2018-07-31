@@ -1,2 +1,2 @@
-# ace_bp
-behaviour prediction project at ACE Lab
+# 2018 Internship project at ACE Lab
+description is here...
