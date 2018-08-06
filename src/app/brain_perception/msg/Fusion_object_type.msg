@@ -45,6 +45,7 @@ float32 existence_probability
 float32 range
 float32 range_rate
 uint8 valid
+string blinker
 
 uint8 is_radar
 uint8 is_lidar
